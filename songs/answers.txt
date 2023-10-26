@@ -1,0 +1,15 @@
+Averages of Danceability, Energy and Valence are used to determine Spotify's Wrapped
+
+We can use the followig SQL command to obtain the averages.
+SELECT AVG(danceability), AVG(energy), AVG(valence) FROM songs;
++-------------------+-------------+--------------+
+| AVG(danceability) | AVG(energy) | AVG(valence) |
++-------------------+-------------+--------------+
+| 0.71646           | 0.65906     | 0.484443     |
++-------------------+-------------+--------------+
+
+Based on the results, we can guess this person's aura.
+
+This can be calculated by looking at how often music with which valence value is listened to.
+For example, if music with a low valence value was or is listened to very often over a certain period of time, the mood and state of mind of the person can be revealed.
+How often similar tempo, energy and valence values are repeated might provide additional insight.

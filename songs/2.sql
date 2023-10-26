@@ -1,0 +1,1 @@
+SELECT name AS [All Songs By Tempo] FROM songs ORDER BY tempo;
